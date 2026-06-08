@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>티몬 기획전 페이지</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            width: 950px;
+            margin: 0 auto;
+        }
+
+        .top-header {
+            width: 100%;
+            height: 120px;
+            position: relative;
+        }
+
+        .logo-left {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .logo-center {
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        .title-bar {
+            background-color: #26c0b3;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+
+        .title-date {
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .main-banner {
+            width: 100%;
+            margin-top: 5px;
+        }
+        .main-banner img {
+            width: 100%;
+            display: block;
+        }
+
+        .product-container {
+            margin-top: 20px;
+            text-align: justify; /* 3개 카드가 좌우 끝에 딱 붙어 정렬되도록 함 */
+        }
+
+        .product-box {
+            width: 310px;        /* 원래 원하셨던 시원하고 꽉 찬 크기로 복원 */
+            display: inline-block;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .product-box img {
+            width: 100%;
+            display: block;
+        }
+
+        .brand-text {
+            color: #ff3243;
+            font-weight: bold;
+            display: inline-block;
+            width: 55px;
+        }
+
+        .desc-text {
+            display: inline-block;
+            width: 245px;
+            vertical-align: top;
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <div class="top-header">
+        <div class="logo-left">
+            <img src="img/top_logo.jpg" alt="티몬 폰트">
+        </div>
+        <div class="logo-center">
+            <img src="img/top_interior.jpg" alt="티몬 Q로고">
+        </div>
+    </div>
+
+    <div class="title-bar">
+        <img src="img/text_interior.jpg" alt="타이틀 문구">
+        <span class="title-date">2020.04.02</span>
+    </div>
+
+    <div class="main-banner">
+        <img src="img/middle.jpg" alt="메인 배너">
+    </div>
+
+    <div class="product-container">
+        <div class="product-box">
+            <img src="img/tmon01.jpg">
+            <div style="padding: 10px 0;">
+                <span class="brand-text">티몬가</span>
+                <p class="desc-text">아직도 앉아 있나요? 바른 자세 스탠딩 책상</p>
+            </div>
+        </div><div class="product-box" style="margin-left: 10px;">
+            <img src="img/tmon02.jpg">
+            <div style="padding: 10px 0;">
+                <span class="brand-text">티몬가</span>
+                <p class="desc-text">드라마 같은 홈스타일 분위기 있는 스탠드</p>
+            </div>
+        </div><div class="product-box" style="margin-left: 10px;">
+            <img src="img/tmon03.jpg">
+            <div style="padding: 10px 0;">
+                <span class="brand-text">티몬가</span>
+                <p class="desc-text">집에서 하는 냅킨공예</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
